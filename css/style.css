@@ -217,6 +217,12 @@ header{
     align-items: center;
 }
 
+.item3{
+    background-image: url(../assets/img/item3.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 300px;
+}
 /* end fourth section */
 
 /* start fifth */
