@@ -29,10 +29,6 @@ body, .white-button, .black-button, .blue-button, .small-button{
     width: 40%;
 }
 
-.margin{
-    margin: 10px 20px;
-}
-
 .central{
     max-width: 1170px;
     margin: 0 auto;
@@ -146,18 +142,11 @@ header{
     align-items: center;
 }
 
-.header-logo, .header-link, .header-login{
-    padding: 6px;
+.header-logo{
+    padding-left: 10px;
+    padding-right: 100px;
 }
 
-.header-logo{
-    width: 20%;
-    text-align: left;
-    padding-left: 10px;
-    background-image: url(../assets/img/logo.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-}
 .header-link{
     width: 60%;
     text-align: center;
@@ -170,15 +159,11 @@ header{
 }
 
 .header-text{
-    padding: 20px;
+    margin: auto 20px;
 }
 /* end header */
 
 /* start first section */
-
-.first-sec{
-    
-}
 .first-row{
     width: 100%;
     display: flex;
@@ -203,69 +188,68 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.item1{
-    background-image: url(../assets/img/item1.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding: 300px;
-}
 /* end second section */
 
 /* start third section */
 .third-sec{
-    background-color: rgba(210,211,210,255);
+    background-color: rgba(228,229,229,255);
 }
 .third-row{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.item2{
-    background-image: url(../assets/img/item2.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 /* end third section */
 
 /* wave */
 .wave{
-     background-image: url(../assets/img/wave.svg);
+    width: 100%;
+    opacity: 0.1;
+    display: flex;
+}
+
+.wave-reverse{
+    width: 100%;
+    opacity: 0.1;
+    transform: rotate(180deg);
+    display: flex;
 }
 /* end wave */
+
 /* start fourth section */
 .fourth-sec{
     background-color: rgb(255, 255, 255);
 }
+
 .fourth-row{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.item3{
-    background-image: url(../assets/img/item3.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    padding: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 /* end fourth section */
 
 /* start fifth */
 .fifth-sec{
-    background-color: rgba(210,211,210,255);
+    background-color: rgba(228,229,229,255);
 }
+
 .fifth-row{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .fifth-col{
@@ -274,44 +258,28 @@ header{
     padding-top: 50px;
 }
 
-.item4{
-    background-image: url(../assets/img/item4-big.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 300px;
-}
-
-.stars{
-    background-image: url(../assets/img/stars.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 70px;
-
-}
 /* end fifth section */
 
 /* start footer */
 footer{
     background-color: rgba(35,39,42,255);
 }
+
 .sixth-row{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
+
 .col-30{
     width: 30%;
     margin-top: 70px;
 }
 
 .ita{
-    background-image: url(../assets/img/ita.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    padding: 10px;
-    margin-right: 5px;
+    width: 25px;
+    vertical-align: middle;
 }
 
 .footer-text{
@@ -332,6 +300,7 @@ footer{
 .intern-row{
     display: flex;
 }
+
 .col-17{
     width: calc(100% / 4);
     font-size: 15px;
@@ -351,14 +320,8 @@ footer{
     padding-top: 25px;
 }
 
-.footer-logo{
-    width: 200px;
-    height: 50px;
-    text-align: left;
-    padding-left: 10px;
-    background-image: url(../assets/img/logo.svg);
-    background-repeat: no-repeat;
-    background-position: left;
+.footer-bottone{
+    margin-bottom: 5px;
 }
 
 .small{
