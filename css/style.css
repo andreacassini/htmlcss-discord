@@ -257,6 +257,12 @@ header{
     padding-bottom: 100px;
     padding-top: 50px;
 }
+.stars{
+    background-image: url(../assets/img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+}
 
 /* end fifth section */
 
